@@ -15,7 +15,8 @@ public class Vehiculo {
     public void comparacion() {
         if (this.ruedas > this.puertas) {
             System.out.println("Este es descapotable");
-        } else {
+        }
+        else {
             System.out.println("Este es coche");
         }
     }
